@@ -1,0 +1,10 @@
+{
+  "jupyter.debugJustMyCode": false,
+  "[python]": {
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": "explicit"
+    }
+  },
+  "editor.formatOnSave": true,
+  "python.formatting.provider": "black"
+}

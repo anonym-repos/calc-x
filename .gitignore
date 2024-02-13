@@ -1,0 +1,17 @@
+/venv/*
+*__pycache__/
+*.ipynb_checkpoints
+.wandb
+checkpoints
+*.pyc
+data/ape210k/
+data/math_qa/
+data/gsm8k/
+data/mawps/
+data/svamp/
+data/asdiv/
+predictions/
+selftrain_preds/
+selftrain_preds_old/
+*env
+notebooks/wandb/
