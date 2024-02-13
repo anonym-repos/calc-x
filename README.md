@@ -42,6 +42,7 @@ from transformers import T5ForConditionalGeneration, T5Tokenizer
 from gadgets.model import gadget_assisted_model
 from gadgets.gadget import Calculator
 
+GadgetAssistedT5 = gadget_assisted_model(T5ForConditionalGeneration)
 
 model = GadgetAssistedT5.from_pretrained("anonym-repos/calcformer-flan-xl")
 tokenizer = T5Tokenizer.from_pretrained("anonym-repos/calcformer-flan-xl")
